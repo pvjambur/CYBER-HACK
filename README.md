@@ -1,5 +1,5 @@
 
-### **Part A: About the Project**
+# **Part A: About the Project**
 
 ---
 
@@ -255,3 +255,110 @@ This project is a step forward in:
 Through detailed analysis, innovative methodologies, and a user-centric application, this project delivers practical solutions to combat cybercrime effectively.
 
 --- 
+
+# Part B: Deploying the Repository Locally
+
+### **Steps to Set Up and Deploy the Repository**
+
+Follow the steps below to deploy and run the repository **CYBER-HACK** on your local system:
+
+---
+
+### **Step 0: Create and Activate a Conda Environment**
+1. Open a terminal or command prompt.
+2. Run the following commands to create and activate a Conda environment named **CyberGuard** with Python 3.9:
+   ```bash
+   conda create -n CyberGuard python=3.9 -y
+   conda activate CyberGuard
+   ```
+
+---
+
+### **Step 1: Clone the Repository**
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/pvjambur/CYBER-HACK.git
+   ```
+2. Navigate into the cloned directory:
+   ```bash
+   cd CYBER-HACK
+   ```
+
+---
+
+### **Step 2: Install Dependencies**
+1. Install the required dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+### **Step 3: Download and Extract Results**
+1. Visit the following link to download the `results.zip` file:
+   [Download Results.zip](https://drive.google.com/drive/folders/1L5aSwYFaDZ1WqGSoREhfnKQy6LyPIYXb?usp=drive_link)
+2. Extract the `results.zip` file.
+3. Place the extracted folder into the cloned directory where the repository files are located.
+
+---
+
+### **Step 4: Run the Application**
+1. Start the application using Streamlit:
+   ```bash
+   streamlit run app.py
+   ```
+2. The application will launch in your default web browser, showing the user interface.
+
+---
+
+### **Using the Application**
+1. Open the `test.csv` file located in the repository.
+2. Copy a random cybercrime description from the file.
+3. Paste the description into the **Predict** text box on the app interface.
+4. Click the **Predict** button.
+
+The application will:
+- Predict the **category** and **sub-category** of the cybercrime.
+- Display the results interactively on the interface.
+
+---
+
+### **Results Demonstration**
+
+#### **1. Prediction Box Filled**
+An example of a cybercrime description pasted into the **Predict** box.
+
+![Prediction Box Filled](images/Screenshot%202024-11-22%20234738.png)
+
+---
+
+#### **2. Predicted Category**
+The predicted **category** of the entered cybercrime description.
+
+![Predicted Category](images/Screenshot%202024-11-22%20234751.png)
+
+---
+
+#### **3. Predicted Sub-Category**
+The predicted **sub-category** of the cybercrime.
+
+![Predicted Sub-Category](images/Screenshot%202024-11-22%20234818.png)
+
+---
+
+#### **4. Complete Predicted Results**
+The complete prediction results, including both category and sub-category, displayed clearly.
+
+![Predicted Results](images/Screenshot%202024-11-22%20234823.png)
+
+---
+
+#### **5. Reference CSV Tuple**
+A snapshot of the `test.csv` file showing the cybercrime descriptions.
+
+![Reference CSV Tuple](images/Screenshot%202024-11-22%20235515.png)
+
+---
+
+### **Conclusion**
+By following the above steps, you can successfully deploy the CYBER-HACK repository locally and predict cybercrime categories and sub-categories using the application.
