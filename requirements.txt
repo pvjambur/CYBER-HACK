@@ -1,0 +1,6 @@
+torch==2.0.1
+transformers==4.33.2
+datasets==2.15.1
+pandas==2.1.1
+streamlit==1.26.0
+matplotlib==3.8.0
