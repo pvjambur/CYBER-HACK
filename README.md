@@ -10,8 +10,9 @@ Watch the demonstration of how the application works below:
 *(Click the image above to play the video directly on YouTube.)*  
 
 
-## Part A: Project Explanation
-## Part B: Project Deployment
+#### Part A: Project Explanation
+#### Part B: Project Deployment
+
 ---
 
 
