@@ -9,6 +9,9 @@ Watch the demonstration of how the application works below:
 [![CYBER-HACK Demo Video](https://img.youtube.com/vi/pTQGFGMewaA/0.jpg)](https://www.youtube.com/watch?v=pTQGFGMewaA&ab_channel=PVJambur)  
 *(Click the image above to play the video directly on YouTube.)*  
 
+
+## Part A: Project Explanation
+## Part B: Project Deployment
 ---
 
 
