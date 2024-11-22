@@ -1,6 +1,4 @@
 
-To ensure the YouTube video is directly playable within the README (especially on platforms like GitHub), you can embed it using markdown. However, GitHub does not natively support embedded video playback. Instead, you can provide a thumbnail with a clickable link or rely on platforms like Streamlit's documentation or other hosting services that render embedded videos properly. Here's the markdown-friendly version:
-
 ---
 
 # **CYBER-HACK Deployment Guide**
@@ -13,18 +11,6 @@ Watch the demonstration of how the application works below:
 
 ---
 
-If you need to make it directly playable (embedded video), you must rely on platforms supporting full HTML rendering (like Streamlit, Jupyter Notebooks, or dedicated documentation platforms). Here’s an HTML version for such cases:
-
-```html
-<h1>CYBER-HACK Deployment Guide</h1>
-<h3>Reference Video</h3>
-<p>Watch the demonstration of how the application works below:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pTQGFGMewaA" 
-title="CYBER-HACK Demo Video" frameborder="0" allow="accelerometer; autoplay; 
-clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
-
-This HTML snippet allows the video to be directly embedded and playable, provided the platform supports it.
 
 # **Part A: About the Project**
 
